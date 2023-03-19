@@ -15,6 +15,15 @@ Loan
 	"LOAN_TYPE": "Mortgage",
 	"AMOUNT": "500",
 	"INTEREST_RATE": "5",
-	"LOAN_TERMS": "360",
+	"LOAN_TERMS": "360"
+}
+
+
+Ledger
+{
+    "ID_LOAN":"50000005555555500",
+    "PAYMENT_AMOUNT": 500,
+    "INTEREST": 5,
+    "PRINCIPAL": 500000
 }
 

@@ -13,7 +13,6 @@ const ledgerSchema = new mongoose.Schema({
   ID_LOAN: { 
     type: String, 
     require: [true,'You must enter a LOAN ID'],
-    unique: true,
     trim: true,
     maxlength: [40, 'A LOAN number must have less or equal then 40 characters'],
     minlength: [10, 'A LOAN number must have more or equal then 10 characters']
