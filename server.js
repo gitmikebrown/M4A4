@@ -28,5 +28,5 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb+srv://mikejbrown:ssOX5PclZpKgf2VE@cluster0.dk5ltnv.mongodb.net/LOANS', {useNewUrlParser: true})
-    .then(() => console.log('connection successfull'))
+    .then(() => console.log('connection successfull\n**********************************'))
     .catch((error) => console.error(err));

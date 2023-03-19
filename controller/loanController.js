@@ -51,4 +51,5 @@ exports.deleteDataByID = async (req, res) => {
     const {id} = req.params;
     const loans = await Loan.deleteOne({_id: id})
     res.send(`Hello,  Loan ${id} was deleted.`)
+
 }
